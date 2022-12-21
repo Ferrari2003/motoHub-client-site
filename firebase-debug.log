@@ -1,0 +1,93 @@
+[debug] [2022-12-21T09:24:26.240Z] ----------------------------------------------------------------------
+[debug] [2022-12-21T09:24:26.242Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-12-21T09:24:26.243Z] CLI Version:   11.19.0
+[debug] [2022-12-21T09:24:26.243Z] Platform:      win32
+[debug] [2022-12-21T09:24:26.243Z] Node Version:  v16.17.0
+[debug] [2022-12-21T09:24:26.244Z] Time:          Wed Dec 21 2022 15:24:26 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-12-21T09:24:26.244Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-21T09:24:26.314Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-21T09:24:26.314Z] > authorizing via signed-in user (ak1644137@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\project\motoHub-client-site
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-21T09:24:33.802Z] Using project from CLI flag: motohub-53b37
+[debug] [2022-12-21T09:24:33.803Z] > refreshing access token with scopes: []
+[debug] [2022-12-21T09:24:33.805Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-21T09:24:33.805Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-21T09:24:34.322Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-12-21T09:24:34.323Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-21T09:24:34.336Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/motohub-53b37 [none]
+[debug] [2022-12-21T09:24:35.135Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/motohub-53b37 403
+[debug] [2022-12-21T09:24:35.135Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/motohub-53b37 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-12-21T09:24:35.136Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-12-21T09:24:35.443Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project motohub-53b37. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-12-21T09:24:53.324Z] ----------------------------------------------------------------------
+[debug] [2022-12-21T09:24:53.326Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-12-21T09:24:53.326Z] CLI Version:   11.19.0
+[debug] [2022-12-21T09:24:53.326Z] Platform:      win32
+[debug] [2022-12-21T09:24:53.326Z] Node Version:  v16.17.0
+[debug] [2022-12-21T09:24:53.327Z] Time:          Wed Dec 21 2022 15:24:53 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-12-21T09:24:53.327Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-21T09:24:53.398Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-21T09:24:53.398Z] > authorizing via signed-in user (ak1644137@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\project\motoHub-client-site
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-21T09:25:00.290Z] Using project from CLI flag: motohub-53b37
+[debug] [2022-12-21T09:25:00.292Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/motohub-53b37 [none]
+[debug] [2022-12-21T09:25:00.963Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/motohub-53b37 403
+[debug] [2022-12-21T09:25:00.963Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/motohub-53b37 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-12-21T09:25:00.965Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-12-21T09:25:01.304Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project motohub-53b37. Please make sure the project exists and your account has permission to access it.
